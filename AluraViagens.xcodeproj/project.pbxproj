@@ -13,6 +13,9 @@
 		14BFE7A3242AD00C00F6B6EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14BFE7A1242AD00C00F6B6EF /* Main.storyboard */; };
 		14BFE7A5242AD00E00F6B6EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14BFE7A4242AD00E00F6B6EF /* Assets.xcassets */; };
 		14BFE7A8242AD00E00F6B6EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14BFE7A6242AD00E00F6B6EF /* LaunchScreen.storyboard */; };
+		14BFE7B0242AE06000F6B6EF /* Viagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BFE7AF242AE06000F6B6EF /* Viagem.swift */; };
+		14BFE7B4242AE46400F6B6EF /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BFE7B3242AE46400F6B6EF /* TableViewCell.swift */; };
+		14BFE7BD242AEB5800F6B6EF /* ViagemDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BFE7BB242AE9F900F6B6EF /* ViagemDAO.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		14BFE7A4242AD00E00F6B6EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14BFE7A7242AD00E00F6B6EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14BFE7A9242AD00E00F6B6EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14BFE7AF242AE06000F6B6EF /* Viagem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viagem.swift; sourceTree = "<group>"; };
+		14BFE7B3242AE46400F6B6EF /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		14BFE7BB242AE9F900F6B6EF /* ViagemDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViagemDAO.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,14 +63,49 @@
 			isa = PBXGroup;
 			children = (
 				14BFE79B242AD00C00F6B6EF /* AppDelegate.swift */,
+				14BFE7B5242AE8DF00F6B6EF /* Model */,
+				14BFE7B7242AE90B00F6B6EF /* Home */,
 				14BFE79D242AD00C00F6B6EF /* SceneDelegate.swift */,
-				14BFE79F242AD00C00F6B6EF /* ViewController.swift */,
+				14BFE7BB242AE9F900F6B6EF /* ViagemDAO.swift */,
 				14BFE7A1242AD00C00F6B6EF /* Main.storyboard */,
 				14BFE7A4242AD00E00F6B6EF /* Assets.xcassets */,
 				14BFE7A6242AD00E00F6B6EF /* LaunchScreen.storyboard */,
 				14BFE7A9242AD00E00F6B6EF /* Info.plist */,
 			);
 			path = AluraViagens;
+			sourceTree = "<group>";
+		};
+		14BFE7B5242AE8DF00F6B6EF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				14BFE7AF242AE06000F6B6EF /* Viagem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		14BFE7B7242AE90B00F6B6EF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				14BFE7B9242AE99C00F6B6EF /* View */,
+				14BFE7B8242AE94F00F6B6EF /* Controller */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		14BFE7B8242AE94F00F6B6EF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				14BFE79F242AD00C00F6B6EF /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		14BFE7B9242AE99C00F6B6EF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				14BFE7B3242AE46400F6B6EF /* TableViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +179,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14BFE7B0242AE06000F6B6EF /* Viagem.swift in Sources */,
 				14BFE7A0242AD00C00F6B6EF /* ViewController.swift in Sources */,
+				14BFE7B4242AE46400F6B6EF /* TableViewCell.swift in Sources */,
+				14BFE7BD242AEB5800F6B6EF /* ViagemDAO.swift in Sources */,
 				14BFE79C242AD00C00F6B6EF /* AppDelegate.swift in Sources */,
 				14BFE79E242AD00C00F6B6EF /* SceneDelegate.swift in Sources */,
 			);
